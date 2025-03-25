@@ -23,3 +23,6 @@ docker inspect volume name
 docker volume rm volume name
 6.to deleting unused volume
 docker volume prune -a(for deleting)
+
+containerization
+kubernetes
