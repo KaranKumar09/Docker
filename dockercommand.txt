@@ -26,3 +26,5 @@ docker volume prune -a(for deleting)
 
 containerization
 kubernetes
+1. kubernetes is a container orchestration tool
+2. it is used for automating the deployment, scaling and management of containerized applications
