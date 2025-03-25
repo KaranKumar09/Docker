@@ -10,3 +10,16 @@ docker images
 docker build -t foldername .
 6.command to run on port
 docker run -d -p 8080:3000 foldername
+
+//docker volume
+1.docker volume command to list all command
+2. to create volume 
+docker volume create volumename
+3.to list volume
+docker volume ls
+4. for inspecting volume
+docker inspect volume name
+5. for removing volume
+docker volume rm volume name
+6.to deleting unused volume
+docker volume prune -a(for deleting)
