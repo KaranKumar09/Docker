@@ -1,0 +1,12 @@
+1.first command to pull image:
+docker pull image name
+2.to run image 
+docker run image name
+3.to show all running containers
+docker ps or docker ps -a
+4.to show all the images
+docker images
+5.command to build 
+docker build -t foldername .
+6.command to run on port
+docker run -d -p 8080:3000 foldername
